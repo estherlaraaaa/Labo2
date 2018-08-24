@@ -19,8 +19,7 @@
                 <fieldset>
                     <legend>Personal Data</legend>
                     <label>DUI</label>
-                    <input type="text" placeholder="048134128" required pattern=".{9}" title="Son 9 caracteres"
-                        title="5 to 10 characters">
+                    <input type="text" placeholder="048134128" required pattern="[0-9]{8}-[0-9]{1}" title="12345321-9">
 
                     <label>First Name</label>
                     <input type="text" placeholder="First Name" required>
@@ -36,7 +35,7 @@
                     <br>
 
                     <label>Contact Number</label>
-                    <input type="text" pattern={8} title="Son 8 numeros">
+                    <input type="text" requiered pattern="[0-9]{4}-[0-9]{4}" title="2211-8899">
 
                     <label>Birthdate</label>
                     <input type="date" value="1998/07/28">
