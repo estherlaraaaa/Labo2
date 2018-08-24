@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <center><h1>Curriculum Vitae</h1></center>
+
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label>DUI</label> <input type="text" placeholder="048134128">
+            
+            <label>First Name</label> <input type="text" placeholder="First Name">
+            
+            <label>Last Name</label> <input type="text" placeholder="Last Name">
+            
+            <label>Gender</label> <input type="radio" name="gender[]"> M <input type="radio" name="gender[]"> F
+
+            <br><br>
+
+            <label>Contact Number</label> <input type="text">
+
+            <label>Birthdate</label> <input type="date" value="1997/10/08">
+
+            <label>Civil Status</label>
+
+            <select>
+                <option>Single</option>
+                <option>Taken</option>
+                <option>Complicated</option>
+            </select>
+
+            <label>Image</label> <input type="file">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea cols="255" rows="10" placeholder="Experience"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Academic Training</legend>
+            <textarea cols="255" rows="10" placeholder="Academic Training"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Further Training</legend>
+            <fieldset>
+                <legend>Programming Languages</legend>
+                <input type="checkbox"> Java
+                <input type="checkbox"> C#
+                <input type="checkbox"> Phyton
+                <input type="checkbox"> C++
+                <input type="checkbox"> Ruby
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Web Technologies</legend>
+                <input type="checkbox"> HTML5
+                <input type="checkbox"> CSS/CSS3
+                <input type="checkbox"> marerialize Css
+                <input type="checkbox"> Javascript
+                <input type="checkbox"> Node.js
+                <input type="checkbox"> Spring MVC
+            </fieldset>
+        </fieldset>
+
+        <br>
+        
+        <input type="submit" value="Send">
+        <input type="submit" value="Cancel">
+    </form>
+</body>
+</html>
